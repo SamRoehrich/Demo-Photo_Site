@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const HomePage = ({ pics }) => {
   useEffect(() => {
-    document.title = "Kyle Garrett Photo | Home";
+    document.title = "Photo CMS | Home";
   });
   return <Gallery pics={pics} />;
 };
